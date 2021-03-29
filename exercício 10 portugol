@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero , contador
+		
+		escreva("Digite um numero : ")
+		leia(numero)
+		limpa()
+
+		para(contador = 1 ; contador <= numero; contador++)
+		{
+			escreva(contador,"\n")
+		}
+	}
+}
